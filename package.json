@@ -23,7 +23,7 @@
   "main": "index.js",
   "directories": {
     "test": "test",
-    "benchmark": "benchmark",
+    "benchmark": "benchmark"
   },
   "scripts": {
     "test": "make test",
