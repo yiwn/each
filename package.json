@@ -1,6 +1,6 @@
 {
   "name": "yiwn-each",
-  "version": "0.2.5",
+  "version": "0.3.0",
   "description": "Array / object / string iteration utility",
   "dependencies": {
     "component-type": "^1.1.0"
