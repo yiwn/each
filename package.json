@@ -1,25 +1,33 @@
 {
-  "name": "component-each",
+  "name": "yiwn-each",
   "version": "0.2.5",
   "description": "Array / object / string iteration utility",
   "dependencies": {
-    "component-type": "1.0.0",
-    "to-function": "2.0.5"
-  },
-  "browser": {
-    "type": "component-type"
+    "component-type": "^1.1.0"
   },
   "devDependencies": {
+    "duo": "^0.9.2",
     "mocha": "*",
-    "should": "*"
-  },
-  "component": {
-    "scripts": {
-      "each/index.js": "index.js"
-    }
+    "faiton-benchmark": "0.0.1",
+    "lodash": "^3.0.0",
+    "component-each": "^0.2.5"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/component/each.git"
-  }
+    "url": "https://github.com/yiwn/each.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yiwn/each/issues"
+  },
+  "homepage": "https://github.com/yiwn/each",
+  "main": "index.js",
+  "directories": {
+    "test": "test",
+    "benchmark": "benchmark",
+  },
+  "scripts": {
+    "test": "make test",
+    "benchmark": "make benchmark"
+  },
+  "license": "MIT"
 }

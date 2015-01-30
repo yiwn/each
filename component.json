@@ -1,21 +1,15 @@
 {
   "name": "each",
-  "repo": "component/each",
+  "repo": "yiwn/each",
   "description": "Array / object / string iteration utility",
   "version": "0.2.4",
-  "keywords": [
-    "object",
-    "string",
-    "array",
-    "each",
-    "utility"
-  ],
+  "keywords": [],
   "dependencies": {
-    "component/type": "1.0.0",
-    "component/to-function": "2.0.5"
+    "component/type": "^1.1.0"
   },
   "development": {},
+  "main": "lib/each.js",
   "scripts": [
-    "index.js"
+    "lib/each.js"
   ]
 }

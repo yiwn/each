@@ -5,7 +5,14 @@
 
 ## Installation
 
-    $ component install component/each
+Install with [component](http://component.github.io):
+
+    $ component install yiwn/each
+
+Install with [npm](https://www.npmjs.org/) for [browserify](http://browserify.org/):
+
+    $ npm install yiwn-each
+
 
 ## API
 
@@ -32,7 +39,7 @@ each([1,2,3], function(num, i){
   Iterate an object's key / value pairs:
 
 ```js
-each(conf, function(key, val){
+each(conf, function(val, key){
   
 })
 ```

@@ -1,16 +1,17 @@
+build: node_modules
+	@./node_modules/.bin/duo index.js
 
-build: components index.js
-	@component build --dev
+test: node_modules
+	@./node_modules/.bin/mocha \
+		--reporter spec 
 
-components:
-	@component install --dev
+node_modules:
+	@npm install
+
+benchmark:
+	@./node_modules/.bin/faiton-benchmark ./benchmark/index.js
 
 clean:
 	rm -fr build components template.js
 
-test:
-	@./node_modules/.bin/mocha \
-		--reporter spec \
-		--require should
-
-.PHONY: clean test
+.PHONY: build test benchmark clean
